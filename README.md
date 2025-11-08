@@ -1,84 +1,137 @@
 # Computer Networks Laboratory | ESI-SBA
-Implemented a complete network infrastructure with OSPF, VLANs, DHCP, DNS, NAT, PAT, SNMP, and VPN, including a web interface for command automation.
+Engineered and automated enterprise-grade network infrastructure with multi-protocol routing, advanced security, and real-time management systems.
 
 ## 🚀 Quick Navigation
-- [Lab Overview](#overview)
-- [Core Protocols Implemented](#protocols)
+- [Project Scope](#scope)
+- [Protocol Architecture](#architecture)
 - [Network Topology](#network-topology) 
-- [Technologies & Tools](#techs)
-- [Key Experiments](#skills)
-- [Skills Demonstrated](#skills)
+- [Technical Stack](#tech-stack)
+- [Implementation Highlights](#highlights)
+- [Technical Competencies](#competencies)
 
-## 📋 Lab Overview <a id="overview"></a>
-This repository contains comprehensive network implementations covering fundamental to enterprise-level networking concepts with automation capabilities.
+## 🎯 Project Scope <a id="scope"></a>
+Designed and deployed a full-stack networking environment integrating dynamic routing, secure segmentation, and automated management systems for enterprise-level operations.
 
-## 🔧 Core Protocols Implemented <a id="protocols"></a>
-- Routing Protocols: RIP, RIPv2, OSPF, EIGRP
+## 🏗️ Protocol Architecture <a id="architecture"></a>
+### Dynamic Routing Suite
 
-- Switching & VLANs: VLAN configuration, Inter-VLAN routing, STP
+- OSPF multi-area deployments with route redistribution
 
-- Network Services: DHCP, DNS, NAT, PAT, SNMP
+- EIGRP advanced metric configurations
 
-- Security & Tunneling: VPN configurations, ACLs
+- RIP/RIPv2 legacy protocol integration
 
-- Transport Layer: TCP, UDP socket programming
+- Network Segmentation
 
-- Network Layer: ICMP, ARP, IP addressing, Subnetting
+- VLAN-based security zoning
 
-- Application Layer: HTTP, FTP simulations
+- Inter-VLAN routing with ACL enforcement
 
-- Automation: Web interface for network command injection and control
+- STP optimization for loop prevention
+
+### Service Infrastructure
+
+- DHCP scoping with reservation policies
+
+- DNS hierarchical domain resolution
+
+- NAT/PAT translation strategies
+
+- SNMP v2/v3 monitoring implementations
+
+### Security Framework
+
+- Site-to-Site VPN with encryption protocols
+
+- Access Control List rule optimization
+
+- Secure socket programming implementations
 
 ## 🏗️ Network Topology <a id="network-topology"></a>
 Complete network infrastructure showing routing, switching, and service distribution
 
-![Topology](topology.png)
+![Topology](topology.jpg)
 
 
-## 🛠️ Technologies & Tools <a id="techs"></a>
-- Network Simulators: Cisco Packet Tracer, GNS3, Wireshark
+## ⚙️ Technical Stack <a id="tech-stack"></a>
+### Simulation & Analysis
 
-- Routing Protocols: RIP, RIPv2, OSPF, EIGRP, BGP
+- Cisco Packet Tracer for topology validation
 
-- Switching Technologies: VLAN, VTP, STP, Inter-VLAN routing
+- GNS3 for real deployment
 
-- Network Services: DHCP, DNS, NAT, PAT, SNMP, VPN
+- Wireshark for deep packet inspection
 
-- Monitoring & Analysis: Wireshark for packet and SNMP analysis
+### Protocol Implementation
 
-- Programming: Python for socket programming and web automation
+- IGP/EGP routing protocol suites
 
-- Web Technologies: Flask for network automation interface
+- Layer 2/3 switching technologies
 
-## 🎯 Key Experiments <a id="experiments"></a>
-- Dynamic Routing Infrastructure: Configured and compared RIP, RIPv2, OSPF, and EIGRP in multi-area networks
+- Service protocol configurations
 
-- Advanced Network Segmentation: Implemented VLANs, and Inter-VLAN routing with security policies
+### Automation & Development
 
-- Enterprise Services Deployment: Set up DHCP, DNS, NAT, PAT, and SNMP services across multiple subnets
+- Python socket programming for custom protocols
 
-- Socket Programming Applications: Developed TCP/UDP client-server applications with real-time data exchange
+- RESTful API for network automation
 
-- Protocol Analysis & Troubleshooting: Used Wireshark to analyze ARP, ICMP, and routing protocol operations
+## 💡 Implementation Highlights <a id="highlights"></a>
+### Advanced Routing Deployment
 
-- Network Automation System: Created web interface for automated network command execution and management
+- Configured OSPF multi-area networks with virtual links
 
-- Security Implementation: Configured VPN tunnels and access control lists for network protection
+- Implemented EIGRP unequal cost load balancing
 
-## 📊 Skills Demonstrated <a id="skills"></a>
-- Enterprise Network Design and multi-protocol configuration
+- Established route redistribution between protocols
 
-- Advanced Protocol Implementation and performance optimization
+### Security-Centric Segmentation
 
-- Network Automation and management system development
+- Deployed VLAN-based security zones with private VLANs
 
-- Comprehensive Troubleshooting in complex network environments
+- Implemented port security and DHCP snooping
 
-- Security Hardening through ACLs and VPN configurations
+- Configured context-based access control
 
-- Real-time Monitoring using SNMP and packet analysis
+### Enterprise Service Integration
 
-- Problem-solving in large-scale network scenarios
+- Built hierarchical DNS with forward/reverse zones
+
+- Implemented NAT overload with port address translation
+
+- Deployed SNMP monitoring with trap notifications
+
+### Automation & Management
+
+- Developed web-based network command interface
+
+- Created automated configuration deployment scripts
+
+- Built real-time network health monitoring
+
+### Protocol Analysis & Optimization
+
+- Conducted packet-level protocol analysis
+
+- Optimized routing convergence times
+
+- Troubleshoot complex network failures
+## 🏆 Technical Competencies <a id="competencies"></a>
+- Enterprise Network Architecture - Multi-protocol design and implementation
+
+- Security-First Networking - Defense-in-depth security implementations
+
+- Automation Engineering - Scripted network operations and management
+
+- Performance Optimization - Protocol tuning and traffic engineering
+
+- Advanced Troubleshooting - Layer 1-7 problem resolution
+
+- Protocol Mastery - Deep understanding of networking standards
+
+- Infrastructure as Code - Reproducible network deployments
+
+
 
 ---
 Part of Computer Science curriculum at Higher School of Computer Science Engineering (ESI-SBA)
